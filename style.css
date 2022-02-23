@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: url('blueshaidA.jpg');
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+}
+.box{
+	position: absolute;
+	height: 400px;
+	width: 400px;
+	top: 150px;
+	background: #ffffff42;
+	border-radius: 20px;
+	overflow: hidden;
+	border-right: 1px solid gray;
+	backdrop-filter: blur(8px);
+}
+.boxButtons{
+	position: absolute;
+	height: 70px;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(1px);
+}
+.left{
+	position: absolute;
+	height: 40px;
+	width: 40%;
+	left: 5%;
+	border-radius: 30px;
+	border: 2px solid #0005ff;
+
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	font-family:'Poppins', sans-serif;
+}
+.right{
+	position: absolute;
+	height: 40px;
+	width: 40%;
+	right: 5%;
+	border-radius: 30px;
+	border: 2px solid #0005ff;
+	text-shadow: 0px 1px 20px black;
+	background: transparent;
+
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	font-family:'Poppins', sans-serif;
+}
+.left,.right:hover{
+	background: #0005ff;
+}
+h2{
+	font-size: 33px;
+	font-weight: 500;
+	margin-top: 35px;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 20px gray;
+	font-family:'Poppins', sans-serif;
+}
+h5{
+	font-size: 16px;
+	font-weight: 500;
+	color: #fbfbff;
+	text-shadow: 0px 1px 20px black;
+	text-align: justify;
+	margin: 20px 20px;
+	font-family:'Poppins', sans-serif;
+}
